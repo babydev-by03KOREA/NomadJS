@@ -1,0 +1,17 @@
+- addEventListner에는 ("동작", 함수)를 작성하는데 함수에 ()는 쓰지 않는다!
+- console.dir(h1); 해당 요소의 Event정보를 알고싶으면? console.dir로 찍어보자!
+1. find element
+2. listen Event
+3. add Event
+
+- class가 여러개가 있을때
+- 이 클래스명을 포함하고 있니?
+classList.contains(클래스명)
+- 이 클래스명을 지워주겠니?
+classList.remove(클래스명)
+-이 클래스명을 추가해주겠니?
+classList.add(클래스명)
+
+- 한줄로 줄이기!
+h1.classList.toggle(clickedClass);
+toggle(클래스명)이 없으면 추가 / 있으면 제거!
